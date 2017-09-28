@@ -1,0 +1,107 @@
+
+body{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Chicle', cursive;
+}
+#titulo{
+    color: #ff0066;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+/* Header */
+header{
+    background-image: url('../img/passagem.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #3333cc;
+}
+header h1{
+    padding-top: 100px;
+    text-align: center;
+}
+img.center{
+    display: block;
+    margin: 0 auto;
+}
+nav{
+    padding: 2px 0;
+    background-color: rebeccapurple;
+    }
+/* Mudando a cor dos itens do menu*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: deeppink
+}
+nav ul li{
+    display: inline;
+    padding-right: 10px;
+}
+ /* Tabela */
+ .linhaAzul{
+     color: black;
+ }
+
+table, th, td{
+    background-color: yellow;
+    border: 2px dashed black;
+    text-align: center;  
+}
+/*Resumo
+section.resumo{
+    background-color: white;
+    color: #ff0066;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 10px 0 90px 50px;
+    border-style: solid dashed dotted inset;
+    /* solid, dashed, dotted, double, groove, outset, inset, none //
+    border-radius: 10px; /*Colocar redodanda 40% //
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    margin-top:15px;
+}*/
+
+/*Suporte e Resumo*/
+section{
+    background-color:white;
+    color: black;
+    min-width: 100%;
+    min-height: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+section h3{
+    text-align: center;
+}
+section img{
+    max-width: 200px;
+    border-radius: 50%;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #8686ac;
+}
+.core{
+    color: #ff0000;
+    font-weight:bold;
+}
+table.center{
+    margin: 0 auto;
+
+}

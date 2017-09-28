@@ -1,0 +1,81 @@
+body{
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Chicle', cursive;
+    font-family: 'Ranchers', cursive;
+}
+#titulo{
+    color: #ff0066;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Indie Flower', cursive;
+    text-align: center;
+}
+nav{
+    padding: 2px 0;
+    background-color: rebeccapurple;
+    }
+/* Mudando a cor dos itens do menu*/
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: deeppink
+}
+nav ul li{
+    display: inline;
+    padding-right: 10px;
+}
+/* Header */
+header{
+    background-image: url('../img/passagem.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #3333cc;
+}
+header h1{
+    padding-top: 100px;
+    text-align: center;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2px;
+    margin-top: 10px;
+}
+footer a{
+    color:white;
+    text-decoration: none;
+}
+footer a:hover{
+    color: #8686ac;
+}
+.core{
+    color: #ff0000;
+    font-weight:bold;
+}
+form.center{
+    text-align:center;
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+/*
+label.box{
+    border-color:red;
+    background-color: yellow;
+}
+.box{
+    border: green 5px dashed;
+}
+
+/*Usar <br> apenas em paragrafo <p>
+label{
+    width: 200px;
+    display: inline-block;
+}
+input{
+    width: 250px;
+}*/
